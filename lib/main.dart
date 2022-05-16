@@ -15,28 +15,28 @@ class PerguntaAppState extends State<PerguntaApp> {
     {
       'texto': 'Qual Estado voce nasceu?',
       'respostas': [
-        {'texto': 'Minas Gerais', 'pontuacao': 0},
-        {'texto': 'São Paulo', 'pontuacao': 0},
-        {'texto': 'Espírito Santo', 'pontuacao': 0},
-        {'texto': 'Rio de Janeiro', 'pontuacao': 0},
+        {'texto': 'Minas Gerais', 'pontuacao': 1},
+        {'texto': 'São Paulo', 'pontuacao': 2},
+        {'texto': 'Espírito Santo', 'pontuacao': 3},
+        {'texto': 'Rio de Janeiro', 'pontuacao': 4},
       ],
     },
     {
       'texto': 'Em qual cidade?',
       'respostas': [
-        {'texto': 'Suzano', 'pontuacao': 0},
-        {'texto': 'Campo Grande', 'pontuacao': 0},
-        {'texto': 'Itabira', 'pontuacao': 0},
-        {'texto': 'Governador Valadares', 'pontuacao': 0},
+        {'texto': 'Divinopolis', 'pontuacao': 3},
+        {'texto': 'Belo Horizonte', 'pontuacao': 2},
+        {'texto': 'Itabira', 'pontuacao': 1},
+        {'texto': 'Governador Valadares', 'pontuacao': 4},
       ],
     },
     {
       'texto': 'Qual é a sua profissão?',
       'respostas': [
         {'texto': 'Programador', 'pontuacao': 1},
-        {'texto': 'Dentista', 'pontuacao': 5},
+        {'texto': 'Dentista', 'pontuacao': 4},
         {'texto': 'Médica', 'pontuacao': 6},
-        {'texto': 'Bixeiro', 'pontuacao': 10},
+        {'texto': 'Motorista', 'pontuacao': 10},
       ],
     },
   ];

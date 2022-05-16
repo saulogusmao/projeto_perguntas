@@ -6,13 +6,13 @@ class Resultado extends StatelessWidget {
   Resultado(this.pontuacao, this.quandoReiniciarQuestionario);
 
   String get fraseResultado {
-    if (pontuacao < 4) {
-      return 'Legal, você é o Gonzaga!';
-    } else if (pontuacao == 5) {
+    if (pontuacao == 3) {
+      return 'Legal, você é o Saulo!';
+    } else if (pontuacao == 9) {
       return 'Legal, você é a Adélia';
-    } else if (pontuacao == 6) {
+    } else if (pontuacao == 8) {
       return 'Legal, você é a Aline';
-    } else if (pontuacao == 10) {
+    } else if (pontuacao == 12) {
       return "Legal. vocé é o Laércio";
     } else {
       return 'Você está confuso!';
